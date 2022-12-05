@@ -2,7 +2,12 @@
   "$schema": "./node_modules/nx/schemas/workspace-schema.json",
   "version": 2,
   "projects": {
-    "angular-anim": "apps/angular-anim",
-    "angular-anim-e2e": "apps/angular-anim-e2e"
+    "bfi": "apps/bfi",
+    "bfi-e2e": "apps/bfi-e2e",
+    "feature-account-summary": "libs/feature/account-summary",
+    "shared-models": "libs/shared/models",
+    "shared-components": "libs/shared/components",
+    "shared-services": "libs/shared/services",
+    "shared-store": "libs/shared/store"
   }
 }
