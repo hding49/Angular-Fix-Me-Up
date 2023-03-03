@@ -9,9 +9,10 @@ import { AppRoutingModule } from './app-routing.module';
 import { FeatureAccountSummaryModule } from '@bfi/feature/account-summary';
 import { SharedStoreModule } from '@bfi/shared/store';
 import { StoreModule } from '@ngrx/store';
+import {AccountDetailsComponent} from "./account-details/account-details.component";
 
 @NgModule({
-  declarations: [AppComponent, AboutComponent],
+  declarations: [AppComponent, AboutComponent, AccountDetailsComponent],
   imports: [
     BrowserModule,
     CommonModule,
