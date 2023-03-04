@@ -1,6 +1,7 @@
 import { ChangeDetectionStrategy, Component, OnInit } from '@angular/core';
 import { AccountFacade } from '@bfi/shared/store';
 import { ActivatedRoute } from '@angular/router';
+// eslint-disable-next-line @nrwl/nx/enforce-module-boundaries
 import { Account } from '../../../../../libs/shared/store/src/lib/account-state/account';
 
 @Component({

@@ -1,6 +1,7 @@
 import { Injectable } from "@angular/core"
 import { select, Store } from "@ngrx/store"
 import { Account, AccountStateInterface } from "./account-state/account"
+// eslint-disable-next-line @nrwl/nx/enforce-module-boundaries
 import { AccountService } from "libs/shared/services/src/lib/account.service"
 import { map, Observable, of, switchMap } from "rxjs"
 import { getAccountAction } from "./account-state/account-actions"
