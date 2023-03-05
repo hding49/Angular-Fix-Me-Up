@@ -3,6 +3,8 @@
  * Add accounts$|async in template and the async pipe subscribes to an Observable or Promise and returns the latest value it has emitted.
 
  * TODO: 13. Angular (NX) Architecture
+ * The project is generatedd using NX and different components can share data through NGRX. 
+ * And also Angular Cli can be migrated to NX Achitecture using automated migration and manual migration.
 */
 import { Component, OnInit } from '@angular/core';
 // eslint-disable-next-line @nrwl/nx/enforce-module-boundaries
