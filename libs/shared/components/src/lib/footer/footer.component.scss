@@ -16,13 +16,15 @@ section {
 .nav-offsite {
   a {
     // TODO: 12. something's off with this include
-    // @include link();
-    // TODO12Fix
+    // Add theme for link
     @include theme.link();
-    // TODO11Fix
-    &:last-child {
-      padding-right: 0;
-    }
+
     color: white;
+  }
+
+  // TODO 11 Fix
+  a:last-child{
+    float: right;
+    margin-right: 20px;
   }
 }
